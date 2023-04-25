@@ -1,0 +1,11 @@
+numero = int(input("Digite um número inteiro: "))
+
+if numero % 2 == 0:
+    print("O número digitado é par.")
+else:
+    # Levanta uma exceção personalizada com uma mensagem de erro apropriada
+    raise Exception("O número digitado é ímpar. Por favor, digite um número par.")
+Traceback (most recent call last):
+  File "main.py", line 9, in <module>
+    raise Exception("O número digitado é ímpar. Por favor, digite um número par.")
+Exception: O número digitado é ímpar. Por favor, digite um número par.
